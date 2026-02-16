@@ -6,3 +6,6 @@ Demo code for College Notice Board:http://127.0.0.1:5500/index.html
 
 Demo code for Registration Form:http://127.0.0.1:5500/RegistrationPrac.html
 <img width="1920" height="527" alt="Screenshot (135)" src="https://github.com/user-attachments/assets/ae13cde8-9a48-4d98-8e48-c55672be26d5" />
+
+Demo code for Responsive Photo Gallery:http://127.0.0.1:5500/gallery.html
+<img width="1920" height="904" alt="Screenshot (159)" src="https://github.com/user-attachments/assets/a65ba04d-6c6a-4548-9620-c23d445295e1" />
