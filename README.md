@@ -23,13 +23,16 @@ Demo code for Implement Hover Effects and Transitions using CSS:http://127.0.0.1
 <img width="1920" height="903" alt="Screenshot (212)" src="https://github.com/user-attachments/assets/5b0601c8-44be-44f4-bd5d-7a1738bd583d" />
 
 Demo code for Validation Form using JavaScript:http://127.0.0.1:5500/validation.html
-
-
-
-
-
 <img width="1892" height="872" alt="Screenshot (221)" src="https://github.com/user-attachments/assets/3c6afb84-b207-4f16-b26e-ac8228680c33" />
 <img width="1891" height="918" alt="Screenshot (230)" src="https://github.com/user-attachments/assets/c1e8301c-ebc7-4d24-9bd1-14af09df775d" />
 <img width="1890" height="925" alt="Screenshot (231)" src="https://github.com/user-attachments/assets/861afccf-ca9e-4538-8ecb-497b4ce3a61f" />
 <img width="1890" height="923" alt="Screenshot (232)" src="https://github.com/user-attachments/assets/4b252faf-9519-44fa-9448-e9938f7d790f" />
 <img width="1894" height="872" alt="Screenshot (233)" src="https://github.com/user-attachments/assets/ab95a6c6-9a94-4408-95c3-b3f4a419e955" />
+
+Demo code for Simple JavaScript Calculator:http://127.0.0.1:5500/calculator.html
+<img width="1893" height="912" alt="Screenshot (236)" src="https://github.com/user-attachments/assets/da57c39c-9540-452c-9f76-36e42b7ba653" />
+
+
+
+
+
