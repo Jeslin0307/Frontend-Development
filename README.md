@@ -34,5 +34,7 @@ Demo code for Simple JavaScript Calculator:http://127.0.0.1:5500/calculator.html
 
 
 
+Demo code for To-Do List using JavaScript:http://127.0.0.1:5500/to%20do%20list.html
+<img width="1886" height="907" alt="Screenshot (249)" src="https://github.com/user-attachments/assets/3f8f7dd6-349d-48f2-836d-df2d67d9714d" />
 
 
