@@ -32,7 +32,8 @@ Demo code for Validation Form using JavaScript:http://127.0.0.1:5500/validation.
 Demo code for Simple JavaScript Calculator:http://127.0.0.1:5500/calculator.html
 <img width="1893" height="912" alt="Screenshot (236)" src="https://github.com/user-attachments/assets/da57c39c-9540-452c-9f76-36e42b7ba653" />
 
-
+Demo code for Digital Clock using JavaScript:http://127.0.0.1:5500/digi%20clock.html
+<img width="1868" height="907" alt="Screenshot (244)" src="https://github.com/user-attachments/assets/0b483035-40ea-4c5b-855f-c6879d6871dd" />
 
 Demo code for To-Do List using JavaScript:http://127.0.0.1:5500/to%20do%20list.html
 <img width="1886" height="907" alt="Screenshot (249)" src="https://github.com/user-attachments/assets/3f8f7dd6-349d-48f2-836d-df2d67d9714d" />
