@@ -39,9 +39,15 @@ Demo code for To-Do List using JavaScript:http://127.0.0.1:5500/to%20do%20list.h
 <img width="1886" height="907" alt="Screenshot (249)" src="https://github.com/user-attachments/assets/3f8f7dd6-349d-48f2-836d-df2d67d9714d" />
 
 Demo code for Event Handling in HTML:http://127.0.0.1:5500/event%20handling.html
-When button clicked:
+When click button is clicked:
 <img width="1920" height="915" alt="Screenshot (282)" src="https://github.com/user-attachments/assets/d454f4c6-3c5d-4444-9e0a-6bc3f7c3d22b" />
-When hover button clicked:
+When hover button is clicked:
 <img width="1920" height="909" alt="Screenshot (283)" src="https://github.com/user-attachments/assets/a2e4a0d5-c63c-4c88-abc6-74be6bd59f61" />
+When double click button is clicked:
+<img width="1920" height="912" alt="Screenshot (284)" src="https://github.com/user-attachments/assets/dc2a7e9e-192e-40b5-9bcc-2e1c7eef0bb7" />
+When you are typing:
+<img width="1920" height="906" alt="Screenshot (285)" src="https://github.com/user-attachments/assets/15bcaa1b-88e3-48b4-857a-f65474f9cded" />
+When the option is changed:
+<img width="1920" height="906" alt="Screenshot (286)" src="https://github.com/user-attachments/assets/664c6f69-eccb-4acd-a4ae-79925bede982" />
 
 
