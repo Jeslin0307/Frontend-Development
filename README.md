@@ -41,4 +41,7 @@ Demo code for To-Do List using JavaScript:http://127.0.0.1:5500/to%20do%20list.h
 Demo code for Event Handling in HTML:http://127.0.0.1:5500/event%20handling.html
 When button clicked:
 <img width="1920" height="915" alt="Screenshot (282)" src="https://github.com/user-attachments/assets/d454f4c6-3c5d-4444-9e0a-6bc3f7c3d22b" />
+When hover button clicked:
+<img width="1920" height="909" alt="Screenshot (283)" src="https://github.com/user-attachments/assets/a2e4a0d5-c63c-4c88-abc6-74be6bd59f61" />
+
 
