@@ -50,4 +50,19 @@ When you are typing:
 When the option is changed:
 <img width="1920" height="906" alt="Screenshot (286)" src="https://github.com/user-attachments/assets/664c6f69-eccb-4acd-a4ae-79925bede982" />
 
+Demo code for Image Slider in HTML:http://127.0.0.1:5500/image%20slider.html
+First image:
+<img width="1920" height="905" alt="Screenshot (295)" src="https://github.com/user-attachments/assets/c50a3fb1-4e5f-4518-ba44-ad0b8a66f4fc" />
+When next button is clicked:
+<img width="1920" height="907" alt="Screenshot (296)" src="https://github.com/user-attachments/assets/44ec548b-f265-4302-a1a8-ea95cc0a938f" />
+When previous button is clicked:
+<img width="1920" height="909" alt="Screenshot (299)" src="https://github.com/user-attachments/assets/9b0e03e8-7873-4e08-b04e-5924808fefd3" />
+
+
+
+
+
+
+
+
 
