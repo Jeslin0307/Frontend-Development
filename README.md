@@ -58,9 +58,11 @@ When next button is clicked:
 When previous button is clicked:
 <img width="1920" height="909" alt="Screenshot (299)" src="https://github.com/user-attachments/assets/9b0e03e8-7873-4e08-b04e-5924808fefd3" />
 
+Demo code for Responsive Webpage:http://127.0.0.1:5500/responsive%20webpage.html
+<img width="1920" height="934" alt="Screenshot (336)" src="https://github.com/user-attachments/assets/7a7fd7e8-461b-4e5a-8cf8-706fc62ebe95" />
+
 Demo code for Webpage using HTML and CSS:http://127.0.0.1:5500/webpage.html
 <img width="1892" height="922" alt="Screenshot (323)" src="https://github.com/user-attachments/assets/aeaf33ae-3cac-4725-8d43-344bd623b776" />
-
 
 
 
