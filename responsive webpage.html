@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Webpage</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial;
+        }
+
+        body{
+            background:linear-gradient(to right, black, darkviolet);
+        }
+
+        .navbar{
+            background:white;
+            padding:15px 30px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            box-shadow:0px 2px 10px gray;
+        }
+
+        .navbar h1{
+            color:deeppink;
+        }
+
+        .navbar ul{
+            display:flex;
+            list-style:none;
+            gap:20px;
+        }
+
+        .navbar a{
+            text-decoration:none;
+            color:black;
+            font-weight:bold;
+        }
+
+        .container{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            padding:50px;
+            gap:40px;
+        }
+
+        .text{
+            color:white;
+            width:50%;
+        }
+
+        .text h2{
+            font-size:40px;
+            margin-bottom:15px;
+        }
+
+        .text p{
+            font-size:18px;
+            line-height:28px;
+        }
+
+        .btn{
+            margin-top:20px;
+            padding:12px 25px;
+            border:none;
+            background:yellow;
+            color:black;
+            border-radius:30px;
+            font-size:16px;
+            cursor:pointer;
+        }
+
+        .image img{
+            width:350px;
+            border-radius:20px;
+            box-shadow:0px 0px 15px black;
+        }
+
+        @media(max-width:768px){
+
+            .navbar{
+                flex-direction:column;
+                gap:10px;
+            }
+
+            .navbar ul{
+                flex-direction:column;
+                text-align:center;
+            }
+
+            .container{
+                flex-direction:column;
+                text-align:center;
+                padding:20px;
+            }
+
+            .text{
+                width:100%;
+            }
+
+            .text h2{
+                font-size:30px;
+            }
+
+            .image img{
+                width:250px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <h1>My Webpage</h1>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+
+        <div class="text">
+            <h2>Welcome to My Colorful Website</h2>
+
+            <p>
+                This is a simple responsive webpage using HTML and CSS.
+                It looks good on both laptop and mobile screens.
+            </p>
+
+            <button class="btn">Explore</button>
+        </div>
+
+        <div class="image">
+            <img src="moon img.jfif" alt="Nature">
+        </div>
+
+    </div>
+
+</body>
+</html>
