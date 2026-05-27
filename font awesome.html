@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Font Awesome Example</title>
+
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background:linear-gradient(to bottom, black, indigo);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card{
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            width: 300px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .card i{
+            font-size: 50px;
+            color: #7c41b7;
+            margin-bottom: 15px;
+        }
+
+        .social-icons{
+            margin-top: 20px;
+        }
+
+        .social-icons i{
+            font-size: 25px;
+            margin: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .fa-facebook:hover{
+            color: blue;
+        }
+
+        .fa-instagram:hover{
+            color: deeppink;
+        }
+
+        .fa-twitter:hover{
+            color: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <i class="fa-solid fa-user"></i>
+
+        <h2>Welcome User</h2>
+
+        <p>This is a simple HTML program using Font Awesome icons.</p>
+
+        <div class="social-icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+    </div>
+</body>
+</html>
