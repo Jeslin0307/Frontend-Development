@@ -64,6 +64,11 @@ Demo code for Responsive Webpage:http://127.0.0.1:5500/responsive%20webpage.html
 Demo code for Webpage using HTML and CSS:http://127.0.0.1:5500/webpage.html
 <img width="1892" height="922" alt="Screenshot (323)" src="https://github.com/user-attachments/assets/aeaf33ae-3cac-4725-8d43-344bd623b776" />
 
+Demo code for Login Page using Bootstrap Components:http://127.0.0.1:5500/bootstrap%20login.html
+<img width="1896" height="909" alt="Screenshot (360)" src="https://github.com/user-attachments/assets/cee63f35-9dda-4b44-b69b-683daffa696f" />
+
+Demo code for icons using Font Awesome:http://127.0.0.1:5500/font%20awesome.html
+<img width="1889" height="912" alt="Screenshot (375)" src="https://github.com/user-attachments/assets/e076ba4b-2007-44d8-a43a-61df7836f705" />
 
 
 
