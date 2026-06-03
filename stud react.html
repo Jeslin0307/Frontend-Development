@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Attendance Tracker</title>
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <style>
+        body{
+            margin:0;
+            font-family:'Times New Roman', Times, serif;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+            background:linear-gradient(135deg,purple,darkviolet);
+        }
+
+        .card{
+            background:white;
+            padding:30px;
+            border-radius:15px;
+            text-align:center;
+            width:300px;
+            box-shadow:0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        h1{
+            color:#100f0f;
+        }
+
+        button{
+            border:none;
+            padding:10px 15px;
+            margin:5px;
+            border-radius:8px;
+            color:white;
+            cursor:pointer;
+        }
+
+        .present{
+            background:green;
+        }
+
+        .absent{
+            background:red;
+        }
+
+        p{
+            font-size:20px;
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+
+<div id="root"></div>
+
+<script type="text/babel">
+
+function AttendanceTracker(){
+
+    const [present,setPresent] = React.useState(0);
+    const [absent,setAbsent] = React.useState(0);
+
+    return(
+        <div className="card">
+            <h1>📚 Attendance Tracker</h1>
+
+            <p>Present: {present}</p>
+            <p>Absent: {absent}</p>
+
+            <button
+                className="present"
+                onClick={() => setPresent(present + 1)}>
+                Present
+            </button>
+
+            <button
+                className="absent"
+                onClick={() => setAbsent(absent + 1)}>
+                Absent
+            </button>
+        </div>
+    );
+}
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<AttendanceTracker />);
+
+</script>
+
+</body>
+</html>
