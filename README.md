@@ -1,4 +1,4 @@
-Demo code for Personal information page:http://127.0.0.1:5500/personal.html
+<img width="1894" height="903" alt="Screenshot (389)" src="https://github.com/user-attachments/assets/58d5c1b6-426d-4980-aa77-be7f7afa7c9a" />Demo code for Personal information page:http://127.0.0.1:5500/personal.html
 <img width="1920" height="910" alt="Screenshot (155)" src="https://github.com/user-attachments/assets/19745732-8442-4149-be45-afbb52c903d0" />
 
 Demo code for Registration Form:http://127.0.0.1:5500/RegistrationPrac.html
@@ -70,7 +70,11 @@ Demo code for Login Page using Bootstrap Components:http://127.0.0.1:5500/bootst
 Demo code for Icons using Font Awesome:http://127.0.0.1:5500/font%20awesome.html
 <img width="1889" height="912" alt="Screenshot (375)" src="https://github.com/user-attachments/assets/e076ba4b-2007-44d8-a43a-61df7836f705" />
 
+Demo code for React Student Profile Page Layout:http://127.0.0.1:5500/single%20page%20layout.html
+<img width="1894" height="903" alt="Screenshot (389)" src="https://github.com/user-attachments/assets/fda502e3-46f4-4367-b57e-55ee60544d2c" />
 
+Demo code for Student Attendance Tracker - React Counter Project:http://127.0.0.1:5500/stud%20react.html
+<img width="1892" height="910" alt="Screenshot (404)" src="https://github.com/user-attachments/assets/90314bf0-9d54-46e7-b474-3219f9c4ddbb" />
 
 
 
