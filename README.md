@@ -38,6 +38,9 @@ Demo code for Digital Clock using JavaScript:http://127.0.0.1:5500/digi%20clock.
 Demo code for To-Do List using JavaScript:http://127.0.0.1:5500/to%20do%20list.html
 <img width="1886" height="907" alt="Screenshot (249)" src="https://github.com/user-attachments/assets/3f8f7dd6-349d-48f2-836d-df2d67d9714d" />
 
+Demo code for Student Notes Sharing Website:http://127.0.0.1:5500/student%20website.html
+<img width="1899" height="913" alt="Screenshot (608)" src="https://github.com/user-attachments/assets/0b7bcb65-2cbd-4dc6-9cb3-e68378e516d5" />
+
 Demo code for Event Handling in HTML:http://127.0.0.1:5500/event%20handling.html
 When click button is clicked:
 <img width="1920" height="915" alt="Screenshot (282)" src="https://github.com/user-attachments/assets/d454f4c6-3c5d-4444-9e0a-6bc3f7c3d22b" />
