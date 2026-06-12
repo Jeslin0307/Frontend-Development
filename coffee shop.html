@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew Haven Coffee Shop</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:'Poppins',sans-serif;
+        }
+
+        body{
+            background:#FFF8F0;
+        }
+
+        header{
+            background:#2C1810;
+            color:white;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:20px 8%;
+            position:sticky;
+            top:0;
+        }
+
+        .logo{
+            font-size:28px;
+            font-weight:bold;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin-left:25px;
+            transition:.3s;
+        }
+
+        nav a:hover{
+            color:#2C1810;
+        }
+
+        .hero{
+            height:90vh;
+            background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+            url('coffee background.jfif');
+            background-size:cover;
+            background-position:center;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            text-align:center;
+            color:white;
+        }
+
+        .hero h1{
+            font-size:60px;
+        }
+
+        .hero p{
+            margin:15px 0;
+            font-size:18px;
+        }
+
+        .btn{
+            display:inline-block;
+            padding:12px 30px;
+            background:#C97B36;
+            color:white;
+            text-decoration:none;
+            border-radius:30px;
+        }
+
+        .btn:hover{
+            background:#A65E2E;
+        }
+
+        section{
+            padding:70px 8%;
+        }
+
+        .title{
+            text-align:center;
+            font-size:35px;
+            margin-bottom:40px;
+            color:#4b2e2e;
+        }
+
+        .menu-container{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:25px;
+        }
+
+        .card{
+            background:white;
+            border-radius:15px;
+            overflow:hidden;
+            box-shadow:0 5px 15px rgba(0,0,0,0.1);
+            transition:.3s;
+        }
+
+        .card:hover{
+            transform:translateY(-10px);
+        }
+
+        .card img{
+            width:100%;
+            height:250px;
+            object-fit:cover;
+        }
+
+        .card-content{
+            padding:20px;
+            text-align:center;
+        }
+
+        .card-content h3{
+            color:#5C3317;
+        }
+
+        .price{
+            color:#C97B36;
+            font-weight:bold;
+            margin-top:10px;
+        }
+
+        .about{
+            display:flex;
+            flex-wrap:wrap;
+            align-items:center;
+            gap:30px;
+        }
+
+        .about img{
+            width:450px;
+            max-width:100%;
+            border-radius:15px;
+        }
+
+        .about-text{
+            flex:1;
+        }
+
+        .about-text h2{
+            color:#5C3317;
+            margin-bottom:15px;
+        }
+
+        .contact{
+            text-align:center;
+            background:#2C1810;
+            color:white;
+        }
+
+        .contact p{
+            margin:10px 0;
+        }
+
+        footer{
+            text-align:center;
+            background:#1A0F0A;
+            color:#F4C27A;
+            padding:15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">☕ Brew Haven</div>
+        
+        <nav>
+            <a href="#">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div>
+            <h1>Fresh Coffee Everyday</h1>
+            <p>Experience the perfect blend of taste and aroma.</p>
+            <a href="#menu" class="btn">Explore Menu</a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2 class="title">Our Popular Coffees</h2>
+        
+        <div class="menu-container">
+
+        <div class="card">
+            <img src="coffee1.jpg">
+            <div class="card-content">
+                <h3>Cappuccino</h3>
+                <p>Rich espresso with steamed milk.</p>
+                <div class="price">Rs:150</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="coffee2.jfif">
+            <div class="card-content">
+                <h3>Latte</h3>
+                <p>Smooth and creamy coffee delight.</p>
+                <div class="price">Rs:180</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="coffee3.jfif">
+            <div class="card-content">
+                <h3>Mocha</h3>
+                <p>Chocolate flavored coffee special.</p>
+                <div class="price">Rs:200</div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about">
+            <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0">
+            <div class="about-text">
+                <h2>About Our Coffee Shop</h2>
+                <p>
+                    Welcome to Brew Haven, where every cup tells a story.
+                    We serve freshly brewed coffee made from premium beans
+                    sourced from the finest farms. Enjoy a cozy atmosphere,
+                    delicious beverages, and unforgettable moments.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>📍 Thoothukudi,Tamil Nadu</p>
+        <p>📞 +91 98765 43210</p>
+        <p>✉ brewhaven@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Brew Haven Coffee Shop | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

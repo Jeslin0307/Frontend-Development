@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Notes Sharing</title>
+
+    <style>
+
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family:Arial;
+    }
+
+    body{
+        background:linear-gradient(to bottom, black, indigo);
+    }
+
+    header{
+        background:#4b0082;
+        color:white;
+        padding:20px;
+        text-align:center;
+    }
+
+    .container{
+        width:90%;
+        margin:auto;
+        margin-top:30px;
+    }
+
+    .notes{
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+        gap:20px;
+    }
+
+    .card{
+        background:white;
+        padding:20px;
+        border-radius:10px;
+        box-shadow:0 0 10px rgba(0,0,0,0.2);
+        transition:0.3s;
+    }
+
+    .card:hover{
+        transform:scale(1.05);
+    }
+
+    button{
+        margin-top:10px;
+        padding:10px 15px;
+        border:none;
+        background:#4b0082;
+        color:white;
+        border-radius:5px;
+        cursor:pointer;
+    }
+
+    button:hover{
+        background:#6a0dad;
+    }
+
+    footer{
+        background:#222;
+        color:white;
+        text-align:center;
+        padding:15px;
+        margin-top:30px;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Student Notes Sharing Website</h1>
+        <p>Download and Share Study Materials</p>
+    </header>
+
+    <div class="container">
+
+        <div class="notes">
+
+            <div class="card">
+                <h2>Python Notes</h2>
+                <p>Complete Python basics and examples.</p>
+                <button onclick="downloadNote('Python Notes')">
+                    Download
+                </button>
+            </div>
+
+            <div class="card">
+                <h2>HTML & CSS Notes</h2>
+                <p>Frontend web development notes.</p>
+                <button onclick="downloadNote('HTML & CSS Notes')">
+                    Download
+                </button>
+            </div>
+
+            <div class="card">
+                <h2>Java Notes</h2>
+                <p>Object Oriented Programming concepts.</p>
+                <button onclick="downloadNote('Java Notes')">
+                    Download
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Student Notes Sharing</p>
+    </footer>
+
+    <script>
+        function downloadNote(subject){
+            alert(subject + " Download Started!");
+        }
+    </script>
+</body>
+</html>
