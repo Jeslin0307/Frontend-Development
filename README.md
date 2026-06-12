@@ -42,6 +42,7 @@ Demo code for Student Notes Sharing Website:http://127.0.0.1:5500/student%20webs
 <img width="1899" height="913" alt="Screenshot (608)" src="https://github.com/user-attachments/assets/0b7bcb65-2cbd-4dc6-9cb3-e68378e516d5" />
 
 Demo code for Event Handling in HTML:http://127.0.0.1:5500/event%20handling.html
+
 When click button is clicked:
 <img width="1920" height="915" alt="Screenshot (282)" src="https://github.com/user-attachments/assets/d454f4c6-3c5d-4444-9e0a-6bc3f7c3d22b" />
 When hover button is clicked:
@@ -54,6 +55,7 @@ When the option is changed:
 <img width="1920" height="906" alt="Screenshot (286)" src="https://github.com/user-attachments/assets/664c6f69-eccb-4acd-a4ae-79925bede982" />
 
 Demo code for Image Slider in HTML:http://127.0.0.1:5500/image%20slider.html
+
 First image:
 <img width="1920" height="905" alt="Screenshot (295)" src="https://github.com/user-attachments/assets/c50a3fb1-4e5f-4518-ba44-ad0b8a66f4fc" />
 When next button is clicked:
